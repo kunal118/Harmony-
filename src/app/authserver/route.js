@@ -6,7 +6,7 @@ export async function POST(req, res) {
   const body = await req.json();
   const code = body.code;
   const spotifyApi = new SpotifyWebApi({
-    redirectUri: "https://harmony-music-three.vercel.app/",
+    redirectUri: "/",
     clientId: process.env.NEXT_PUBLIC_CLIENT_ID,
     clientSecret: process.env.CLIENT_SECRET,
   });
