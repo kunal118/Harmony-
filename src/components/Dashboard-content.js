@@ -12,13 +12,14 @@ import MusicPlayer from "./MusicPlayer";
 import ErrorPage from "./ErrorPage";
 
 const Dashboardcontent = (props) => {
-  const { currentUser } = useLogin();
+  // const { currentUser } = useLogin();
 
-  console.log(props.sresults);
-  function handleLogout() {}
-  if (currentUser == null) {
-    return <ErrorPage />;
-  }
+  // console.log(props.sresults);
+  // function handleLogout() {}
+  // if (currentUser == null) {
+  //   return <ErrorPage />;
+  // }
+  let currentUser = { email: "kunal24dureja@gmail.com" };
   return (
     <div className="wrapper1">
       <div className="wrapper1-1">
