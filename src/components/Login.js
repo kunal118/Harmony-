@@ -9,7 +9,7 @@ const AuthURL =
     client_id: process.env.NEXT_PUBLIC_CLIENT_ID,
     scope:
       "streaming%20user-read-email%20user-read-private%20user-library-read%20user-library-modify%20user-read-playback-state%20user-modify-playback-state",
-    redirect_uri: "http://localhost:3000",
+    redirect_uri: "/",
   });
 
 const Login = () => {
