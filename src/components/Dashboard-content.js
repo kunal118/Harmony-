@@ -15,7 +15,7 @@ const Dashboardcontent = (props) => {
   // const { currentUser } = useLogin();
 
   // console.log(props.sresults);
-  // function handleLogout() {}
+  function handleLogout() {}
   // if (currentUser == null) {
   //   return <ErrorPage />;
   // }
