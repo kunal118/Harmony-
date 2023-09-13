@@ -8,7 +8,7 @@ const useAuth = (code) => {
 
   useEffect(() => {
     axios
-      .post("/authserver", { code })
+      .post("https://harmony-music-three.vercel.app//authserver", { code })
       .then((res) => {
         console.log(res.data);
         window.history.pushState({}, null, "/");
